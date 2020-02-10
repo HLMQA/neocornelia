@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 subtitle: "Bla bla bla"
 date:   2020-01-02 19:19:20 +0100
 categories: jekyll update
-# hero_height: is-small
 ---
 
 
