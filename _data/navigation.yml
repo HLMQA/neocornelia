@@ -1,0 +1,9 @@
+- name: Publications
+  link: /publications/
+- name: News
+  link: /news/
+- name: Tools
+  link: /tools/
+- name: About us
+  link: /about/
+  rightside: true
