@@ -68,6 +68,5 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
     </div>
 </section>
 
-<script type="text/javascript" src="lib/main.js"></script>
 </body>
 </html>

@@ -68,6 +68,5 @@ subtitle: Here, you can find links to the tools and prototypes we developed with
     </div>
 </section>
 
-<script type="text/javascript" src="lib/main.js"></script>
 </body>
 </html>
