@@ -4,6 +4,11 @@
   link: /news/
 - name: Tools
   link: /tools/
+- name: Shortcuts
+  link: #
+  dropdown: 
+    - name: Source Browser
+      link: /page-2/
 - name: About us
   link: /about/
   rightside: true
