@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +11,7 @@
 <body>
         {% include header.html %}
 
-        <section class="hero is-medium is-bold is-primary">
+        <section class="hero is-large is-bold is-primary" style="background: url('https://projectcornelia.be/images/_proper/Banner.jpg') no-repeat center center; background-size: cover;">
                 <div class="hero-body">
                     <div class="container">
                         <p class="title is-2">Project Cornelia</p>
@@ -22,7 +21,7 @@
                                 The project aims to analyze the interplay between the dynamics of 17th-century Antwerp and
                                 Brussels creative communities and industries (zeroing in on painting and tapestry) on the one
                                 hand, and iconographic and stylistic developments on the other.</p>
-            
+        
                     </div>
                 </div>
             </section>
@@ -41,16 +40,35 @@
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
+                      
+                      <!-- Define knot style and title formatting for publications -->
+                      
                       {% if category == "publication" %}
-                      <div class="timeline-item is-danger">
-                        <div class="timeline-marker is-danger is-icon">
-                          <i class="fa fa-bookmark"></i>
+                      <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                          <i class="fa fa-bookmark fa-sm"></i>
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
                           {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}</p>
                         </div>
                       </div>
+                        
+                      <!-- Define knot style and title formatting for tools -->
+
+                      {% elsif category contains "tool" %}
+                      <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                          <i class="fas fa-cog fa-sm"></i>
+                        </div>
+                        <div class="timeline-content">
+                          <p class="heading">{{ category }}</p>
+                          <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                        </div>
+                      </div>
+
+                      <!-- Define knot style and title formatting for other types of post (essentially news and notes) -->
+
                       {% else %}
                       <div class="timeline-item is-primary">
                           <div class="timeline-marker is-primary"></div>
