@@ -32,9 +32,9 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
-                    {% if category != "note"  %}
+                    {% unless category contains "note" or category contains "news" %}
                         {% continue %}
-                    {% endif %}
+                    {% endunless %}
                       {% if category == "publication" %}
                       <div class="timeline-item is-danger">
                         <div class="timeline-marker is-danger is-icon">
@@ -50,7 +50,7 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
                           <div class="timeline-marker is-primary"></div>
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
-                            {% if category contains "post" %}
+                            {% if category contains "post" or category contains "note" %}
                             <p>{{ post.title }}</p>
                             {% else %}
                             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
