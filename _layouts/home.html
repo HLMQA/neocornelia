@@ -37,7 +37,7 @@
                       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
                       {% if year != nyear %}
                         <header class="timeline-header">
-                          <span class="tag is-primary">{{ post.date | date: '%Y' }}</span>
+                          <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
@@ -85,7 +85,7 @@
                       {% endif %}
                     {% endfor %}
                     <header class="timeline-header">
-                        <span class="tag is-primary">Project starts</span>
+                        <span class="tag is-primary" style="font-size: 0.90rem;">Project starts</span>
                     </header>
                 </div>
             </div>
@@ -111,5 +111,8 @@
         </div>
     </div>
 </footer>
+
+
+
 </body>
 </html>
