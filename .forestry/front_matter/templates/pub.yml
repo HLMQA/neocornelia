@@ -32,5 +32,3 @@ fields:
     maxSize: 250
   label: File
   description: Upload the publication file
-pages:
-- _posts/2020-02-11-test-title.md
