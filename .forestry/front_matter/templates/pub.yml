@@ -26,3 +26,9 @@ fields:
 - type: text
   name: link
   label: link
+- name: file
+  type: file
+  config:
+    maxSize: 250
+  label: File
+  description: Upload the publication file
