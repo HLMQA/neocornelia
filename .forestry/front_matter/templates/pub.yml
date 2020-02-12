@@ -33,4 +33,4 @@ fields:
   label: File
   description: Upload the publication file
 pages:
-- _posts/test-title.md
+- _posts/2020-02-11-test-title.md
