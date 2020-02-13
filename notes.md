@@ -3,8 +3,8 @@ published: true
 layout: page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
-title: News
-subtitle: On this page, you can see the timeline of journal, conference, and other papers published as part of Project Cornelia. Papers are available to download when possible.
+title: Notes
+subtitle: Announcements, trips, and news from the team behind Cornelia.
 ---
 
 <html>
@@ -12,7 +12,7 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
+    <title>Cornelia</title>
     <link rel="stylesheet" href="{{ "/assets/css/timeline.css" | relative_url }}">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
