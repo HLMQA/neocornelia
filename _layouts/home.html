@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
+    <title>Cornelia</title>
     <link rel="stylesheet" href="{{ "/assets/css/timeline.css" | relative_url }}">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
@@ -63,9 +63,9 @@
                         </div>
                       </div>
                         
-                      <!-- Define knot style and title formatting for tools -->
+                      <!-- Define knot style and title formatting for infrastructure -->
 
-                      {% elsif category contains "tool" %}
+                      {% elsif category contains "infrastructure" %}
                       <div class="timeline-item is-primary">
                         <div class="timeline-marker is-primary is-icon">
                           <i class="fas fa-cog fa-sm"></i>
@@ -76,11 +76,27 @@
                         </div>
                       </div>
 
+
+                      <!-- Define knot style and title formatting for presentations -->
+
+                      {% elsif category contains "presentation" %}
+                      <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                          <i class="fas fa-microphone fa-sm"></i>
+                        </div>
+                        <div class="timeline-content">
+                          <p class="heading">{{ category }}</p>
+                          <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                        </div>
+                      </div>
+
+
                       <!-- Define knot style and title formatting for other types of post (essentially news and notes) -->
 
                       {% else %}
                       <div class="timeline-item is-primary">
-                          <div class="timeline-marker is-primary"></div>
+                          <div class="timeline-marker is-primary">
+                          </div>
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
                             {% if category == "note" %}
