@@ -3,8 +3,8 @@ published: true
 layout: page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
-title: Tools
-subtitle: Here, you can find links to the tools and prototypes we developed within Project Cornelia.
+title: Infrastructure
+subtitle: Here, you can find links to the infrastructure and prototypes we developed within Project Cornelia.
 ---
 
 <html>
@@ -12,7 +12,7 @@ subtitle: Here, you can find links to the tools and prototypes we developed with
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
+    <title>Cornelia</title>
     <link rel="stylesheet" href="{{ "/assets/css/timeline.css" | relative_url }}">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
