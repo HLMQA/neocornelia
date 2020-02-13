@@ -2,7 +2,7 @@
 post: true
 layout: post
 date: 2019-10-15 22:00:00 +0000
-categories: post news
+categories: post
 title: this is the titel
 authors: ''
 journal: ''
