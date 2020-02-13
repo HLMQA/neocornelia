@@ -3,7 +3,7 @@ layout: post
 title:  "New: Seedfund for Project Cornelia x MIT"
 subtitle: "this is a subtitle"
 date:   2019-04-02 19:19:20 +0100
-categories: news announcement
+categories: note
 ---
 
 
