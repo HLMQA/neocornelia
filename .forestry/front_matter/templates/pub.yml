@@ -32,5 +32,3 @@ fields:
     maxSize: 250
   label: File
   description: Upload the publication file
-pages:
-- _posts/this-is-the-titel.md
