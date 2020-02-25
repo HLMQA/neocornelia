@@ -32,3 +32,5 @@ fields:
     maxSize: 250
   label: File
   description: Upload the publication file
+pages:
+- _posts/des-vérités-contrariantes-les-tapisseries-des-performances-et-des-oeuvres-multiples.md
