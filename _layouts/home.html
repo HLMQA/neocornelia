@@ -57,7 +57,7 @@
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}<a href="paper.pdf">
+                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}<a href='{{ post.file }}'>
                             <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="26" height="26" style="vertical-align: top;                            ">
                             </a>  </p>
                         </div>
@@ -98,10 +98,10 @@
                           <div class="timeline-marker is-primary"></div>
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
-                            {% if category == "note" %}
-                            <p>{{ post.title }}</p>
-                            {% else %}
+                            {% if post.content %}
                             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                            {% else %}     
+                            <p>{{ post.title }}</p>
                             {% endif %}
                           </div>
                       </div>
