@@ -58,7 +58,7 @@
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
                           {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}<a href="paper.pdf">
-                            <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="32" height="32">
+                            <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="26" height="26" style="vertical-align: top;                            ">
                             </a>  </p>
                         </div>
                       </div>
@@ -95,8 +95,7 @@
 
                       {% else %}
                       <div class="timeline-item is-primary">
-                          <div class="timeline-marker is-primary">
-                          </div>
+                          <div class="timeline-marker is-primary"></div>
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
                             {% if category == "note" %}
