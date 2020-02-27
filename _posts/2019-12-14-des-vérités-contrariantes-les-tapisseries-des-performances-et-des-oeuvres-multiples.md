@@ -6,7 +6,7 @@ categories: publication
 title: Des vérités contrariantes? Les tapisseries, des performances et des oeuvres
   multiples
 authors: K. Brosens
-journal: Perspective. Actualité en histoire de l'art
+journal: Perspective. Actualité en histoire de l'art (2019), pp. 195-202.
 link: ''
 file: "/uploads/Brosens_Perspective_2019.pdf"
 
