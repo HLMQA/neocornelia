@@ -47,7 +47,8 @@
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
-                      
+                      {% assign content = post.content | strip_newlines %}
+
                       <!-- Define knot style and title formatting for publications -->
                       
                       {% if category == "publication" %}
@@ -57,9 +58,13 @@
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}<a href='{{ post.file }}'>
+                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}
+                          {% unless post.file == "" %}
+                          <a href='{{ post.file }}'>
                             <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="26" height="26" style="vertical-align: top;                            ">
-                            </a>  </p>
+                          </a>  
+                          {% endunless %}
+                          </p>
                         </div>
                       </div>
                         
@@ -72,7 +77,12 @@
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
+                          {% if content == "" %}
+                            <p>{{ post.title }}</p>
+                            {% else %}  
                           <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                        {% endif %}
+
                         </div>
                       </div>
 
@@ -86,7 +96,16 @@
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
+                          {% if content == "" %}
+                            {% if post.link %}
+                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
+                            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+                            {% else %}
+                            <p>{{ post.title }}</p>
+                            {% endif %}
+                          {% else %}  
                           <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                          {% endif %}
                         </div>
                       </div>
 
@@ -98,10 +117,15 @@
                           <div class="timeline-marker is-primary"></div>
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
-                            {% if post.content %}
-                            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
-                            {% else %}     
+                            {% if content == "" %}
+                            {% if post.link %}
+                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
+                            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+                            {% else %}
                             <p>{{ post.title }}</p>
+                            {% endif %}
+                          {% else %}   
+                            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
                             {% endif %}
                           </div>
                       </div>
