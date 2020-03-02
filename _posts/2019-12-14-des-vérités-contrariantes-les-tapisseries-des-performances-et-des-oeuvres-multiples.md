@@ -7,7 +7,6 @@ title: Des vérités contrariantes? Les tapisseries, des performances et des oeu
   multiples
 authors: K. Brosens
 journal: Perspective. Actualité en histoire de l'art (2019), pp. 195-202.
-link: ''
 file: "/uploads/Brosens_Perspective_2019.pdf"
 
 ---

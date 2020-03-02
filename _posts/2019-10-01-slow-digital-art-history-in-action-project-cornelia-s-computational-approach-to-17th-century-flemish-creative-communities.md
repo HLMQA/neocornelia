@@ -9,7 +9,6 @@ authors: K. Brosens, J. Aerts, K. Alen, R.J. Beerens, B. Cardoso, I. De Prekel, 
   Ivanova, H. Lamqaddam, G. Molenberghs, A. Slegten, F. Truyen, K. Van der Stighelen,
   K. Verbert
 journal: Visual Resources (Special Issue on Digital Art History) 35 (2019), pp. 105–124.
-link: ''
 file: "/uploads/Slow Digital Art History in Action.pdf"
 
 ---
