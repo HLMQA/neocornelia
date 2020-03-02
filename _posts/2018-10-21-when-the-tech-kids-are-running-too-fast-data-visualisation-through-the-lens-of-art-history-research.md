@@ -7,7 +7,6 @@ title: 'When the Tech Kids are Running Too Fast: Data Visualisation Through the 
   of Art History Research'
 authors: H. Lamqaddam
 journal: IEEE VIS Conference (Berlin, 21–26.10.2018)
-link: ''
-file: ''
+
 
 ---

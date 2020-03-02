@@ -8,7 +8,5 @@ title: The Marquis of Caracena's Scipio Ensemble and Collaborative Entrepreneuri
 authors: K. Brosens
 journal: University of Oregon and Jordan Schnitzer Museum of Art, Baroque Tapestry
   and the Rome of the Barberini. International Symposium (Eugene (OR), 16–17.11.2017)
-link: ''
-file: ''
 
 ---

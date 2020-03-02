@@ -6,7 +6,6 @@ categories: presentation
 title: Network Analysis in/ and Art History
 authors: K. Brosens, I. De Prekel and F. Truyen
 journal: SciencesPo Médialab (Paris, 19.12.2018)
-link: ''
-file: ''
+
 
 ---
