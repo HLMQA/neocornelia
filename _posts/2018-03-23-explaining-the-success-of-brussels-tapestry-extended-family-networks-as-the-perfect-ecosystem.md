@@ -7,6 +7,4 @@ title: 'Explaining the Success of Brussels Tapestry: Extended Family Networks as
   Perfect Ecosystem'
 authors: K. Brosens
 journal: Renaissance Society of America Annual Conference (New Orleans, 22–24.3.2018)
-
-
 ---
