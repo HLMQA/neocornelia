@@ -28,45 +28,51 @@ subtitle: Announcements, trips, and news from the team behind Cornelia.
                       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
                       {% if year != nyear %}
                         <header class="timeline-header">
-                          <span class="tag is-primary">{{ post.date | date: '%Y' }}</span>
+                          <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
-                    {% unless category contains "note" or category contains "news" %}
-                        {% continue %}
-                    {% endunless %}
-                      {% if category == "publication" %}
-                      <div class="timeline-item is-danger">
-                        <div class="timeline-marker is-danger is-icon">
-                          <i class="fa fa-bookmark"></i>
-                        </div>
-                        <div class="timeline-content">
-                          <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}</p>
-                        </div>
-                      </div>
-                      {% else %}
+                      {% assign content = post.content | strip_newlines %}
+
+
+
+                      {% if category == "note" %}
                       <div class="timeline-item is-primary">
+
                           <div class="timeline-marker is-primary"></div>
                           <div class="timeline-content">
-                            <p class="heading">{{ category }}</p>
-                            {% if category contains "post" or category contains "note" %}
-                            <p>{{ post.title }}</p>
-                            {% else %}
-                            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
-                            {% endif %}
+                                <p class="heading">{{ category }}</p>
+                                {% if content == "" %}
+                 
+                                    {% if post.link %}
+                                        <p><i><a href="{{ post.link }}">{{ post.title }}</a></i>
+                                        <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+                                    {% else %}
+
+                                    <p>{{ post.title }}</p>
+
+                                    {% endif %}
+                          
+                                {% else %}   
+                                    <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p> 
+
+                                    
+                                {% endif %}         
                           </div>
                       </div>
                       {% endif %}
+
+
                     {% endfor %}
                     <header class="timeline-header">
-                        <span class="tag is-primary">Project starts</span>
+                        <span class="tag is-primary" style="font-size: 0.90rem;">Project starts</span>
                     </header>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 </body>
 </html>

@@ -33,27 +33,30 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
                       {% assign content = post.content | strip_newlines %}
 
-                      <!-- Define knot style and title formatting for publications -->
-                      
-                      {% if category == "publication" %}
+                     
+ {% if category contains "presentation" %}
                       <div class="timeline-item is-primary">
                         <div class="timeline-marker is-primary is-icon">
-                          <i class="fa fa-bookmark fa-sm"></i>
+                          <i class="fas fa-microphone fa-sm"></i>
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}
-                          {% unless post.file == "" %}
-                          <a href='{{ post.file }}'>
-<img border="0" alt="PDF icon" src="{{ "/images/Adobe_PDF_file_icon_32x32.png" | relative_url }}" width="26" height="26" style="vertical-align: top; ">
-                          </a>  
-                          {% endunless %}
-                          
+                          {% if content == "" %}
+                            {% if post.link %}
+                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
+                            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+                            {% else %}
+                            <p>{{ post.title }}</p>
+                            {% endif %}
+                          {% else %}  
+                          <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                          {% endif %}
                         </div>
                       </div>
-                        
 
-                      {% endif %}
+{%endif%}
+
+                     
                     {% endfor %}
                     <header class="timeline-header">
                         <span class="tag is-primary" style="font-size: 0.90rem;">Project starts</span>

@@ -1,10 +1,12 @@
 - name: Filters
   link: #
   dropdown: 
-  - name: Publications
-    link: /publications/
   - name: Notes
     link: /notes/
+  - name: Presentations
+    link: /presentations/
+  - name: Publications
+    link: /publications/
   - name: Infrastructure
     link: /infrastructure/
 - name: Live tools

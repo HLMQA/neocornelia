@@ -3,10 +3,9 @@ published: true
 layout: page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
-title: Infrastructure
-subtitle: Here, you can find links to the infrastructure and prototypes we developed within Project Cornelia.
+title: Publications
+subtitle: On this page, you can see the timeline of journal, conference, and other papers published as part of Project Cornelia. Papers are available to download when possible.
 ---
-
 <html>
 <head>
     <meta charset="utf-8">
@@ -28,39 +27,36 @@ subtitle: Here, you can find links to the infrastructure and prototypes we devel
                       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
                       {% if year != nyear %}
                         <header class="timeline-header">
-                          <span class="tag is-primary">{{ post.date | date: '%Y' }}</span>
+                          <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
                         </header>
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
-                    {% if category != "tool"  %}
-                        {% continue %}
-                    {% endif %}
-                      {% if category == "publication" %}
-                      <div class="timeline-item is-danger">
-                        <div class="timeline-marker is-danger is-icon">
-                          <i class="fa fa-bookmark"></i>
+                      {% assign content = post.content | strip_newlines %}
+
+                     
+ {% if category contains "infrastructure" %}
+    <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                          <i class="fas fa-cog fa-sm"></i>
                         </div>
                         <div class="timeline-content">
                           <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}</p>
+                          {% if content == "" %}
+                            <p>{{ post.title }}</p>
+                            {% else %}  
+                          <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+                        {% endif %}
+
                         </div>
                       </div>
-                      {% else %}
-                      <div class="timeline-item is-primary">
-                          <div class="timeline-marker is-primary"></div>
-                          <div class="timeline-content">
-                            <p class="heading">{{ category }}</p>
-                            {% if category == "note" %}
-                            <p>{{ post.title }}</p>
-                            {% else %}
-                            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
-                            {% endif %}
-                          </div>
-                      </div>
-                      {% endif %}
+
+
+{%endif%}
+
+                     
                     {% endfor %}
                     <header class="timeline-header">
-                        <span class="tag is-primary">Project starts</span>
+                        <span class="tag is-primary" style="font-size: 0.90rem;">Project starts</span>
                     </header>
                 </div>
             </div>
