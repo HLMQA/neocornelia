@@ -2,18 +2,18 @@
   link: #
   dropdown: 
   - name: Notes
-    link: /notes/
+    link: /notes.html
   - name: Presentations
-    link: /presentations/
+    link: /presentations.html
   - name: Publications
-    link: /publications/
+    link: /publications.html
   - name: Infrastructure
-    link: /infrastructure/
+    link: /infrastructure.html
 - name: Live tools
   link: #
   dropdown: 
     - name: Source Browser
-      link: /page-2/
+      link: https://projectcornelia.be/actors
 - name: About us
   link: /about/
   rightside: true
