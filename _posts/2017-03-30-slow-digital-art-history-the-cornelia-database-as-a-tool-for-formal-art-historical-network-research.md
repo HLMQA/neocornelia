@@ -10,3 +10,4 @@ authors: ''
 journal: ''
 
 ---
+Renaissance Society of America, Annual Conference, _Panel: Digital Humanities and Art History II: Network Visualizations_ (Chicago, 30.3–1.4.2017)
