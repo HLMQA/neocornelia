@@ -10,3 +10,5 @@ journal: ''
 
 ---
 H. Lamqaddam presents her ongoing research on the delicate nature of the interaction between art historians and the computer at the [3rd Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de/2018.html) at the IEEE VIS Conference (Berlin, 21–26.10.2018).
+
+[Paper](http://vis4dh.dbvis.de/papers/2018/When%20the%20Tech%20Kids%20are%20Running%20Too%20Fast%20%20Data%20Visualisation%20Through%20the%20Lens%20of%20Art%20History%20Research.pdf)
