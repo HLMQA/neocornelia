@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Seedfund for Project Cornelia and MIT collaboration
+title: Project Cornelia and MIT/AKDC are awarded a MIT International Science and Technology
+  Initiatives Seed Fund
 subtitle: this is a subtitle
 date: 2019-01-01 19:19:20 +0000
 categories: note

@@ -10,6 +10,5 @@ link: https://www.clarkart.edu/ImportedEvents/1415-43656
 file: ''
 
 ---
-![]({{ site.baseurl }}/uploads/D5Gcq9uXsAEAGW9.jpg)
 
 ![]({{ site.baseurl }}/uploads/D5Lmu2vXsAAGWyG.jpg)
