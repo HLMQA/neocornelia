@@ -4,7 +4,7 @@ layout: post
 date: 2020-03-10 23:00:00 +0000
 categories: note
 title: Project Cornelia hosts two-day international workshop on 'Art Markets in the
-  Global and Digital Age' (University of Leuven)
+  Global and Digital Age' supported by Europeana (University of Leuven)
 authors: ''
 journal: ''
 link: ''
