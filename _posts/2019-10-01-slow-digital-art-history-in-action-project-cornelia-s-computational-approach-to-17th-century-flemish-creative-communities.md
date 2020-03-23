@@ -1,7 +1,7 @@
 ---
 post: true
 layout: post
-date: 2019-10-01 07:00:00 +0000
+date: 2019-02-20 08:00:00 +0000
 categories: publication
 title: Slow Digital Art History in Action. Project Cornelia’s Computational Approach
   to 17th-Century Flemish Creative Communities
