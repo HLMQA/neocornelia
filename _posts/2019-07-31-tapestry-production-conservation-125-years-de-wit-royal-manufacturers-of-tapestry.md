@@ -1,13 +1,13 @@
 ---
 post: true
 layout: post
-date: 2019-07-31 22:00:00 +0000
+date: 2019-07-31T22:00:00.000+00:00
 categories: publication
 title: |-
   Tapestry Production & Conservation.
   125 Years De Wit Royal Manufacturers of Tapestry
 authors: K. Brosens and Y. Maes De Wit
-journal: ''
+journal: London (Harvey Miller) 2019.
 link: http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9781909400528-1
 file: ''
 
