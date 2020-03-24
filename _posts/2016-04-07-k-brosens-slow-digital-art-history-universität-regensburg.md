@@ -11,3 +11,5 @@ file: ''
 
 ---
 Universität Regensburg, Institut für Kunstgeschichte und Lehrstuhl für Medieninformatik, _Digital Art History_ (Regensburg, 7–9.4.2016)
+
+![](/uploads/CfXGnXvXIAAEnzt.jpg)
