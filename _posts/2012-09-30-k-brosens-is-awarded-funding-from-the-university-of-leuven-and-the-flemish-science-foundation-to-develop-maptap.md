@@ -13,4 +13,4 @@ file: ''
 ---
 MapTap. Mapping the Antwerp-Oudenaarde-Brussels tapestry complex via network analysis.
 
-Art historian Klara Alen joins the team as a PhD student. Socio-economic historian Astrid Slegten becomes a research fellow. 
+Art historian Klara Alen joins the team as a PhD student. Socio-economic historian Astrid Slegten becomes a research fellow.
