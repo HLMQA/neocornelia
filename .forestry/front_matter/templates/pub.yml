@@ -33,6 +33,7 @@ fields:
   label: File
   description: Upload the publication file
 pages:
+- _posts/2015-09-01-cornelia-welcomes-3000th-actor.md
 - _posts/2016-04-08-in-de-praktijk-het-vlaamse-wandtapijt-in-50-verhalen.md
 - _posts/2019-12-14-des-vérités-contrariantes-les-tapisseries-des-performances-et-des-oeuvres-multiples.md
 - _posts/can-tapestry-research-benefit-from-economic-sociology-and-social-network-analysis.md
