@@ -3,7 +3,7 @@ post: true
 layout: post
 date: 2017-03-02 23:00:00 +0000
 categories: presentation
-title: 'K; Brosens, R.J. Beerens, C. Pelsmaekers and F. Truyen: The Cornelia Database
+title: 'K. Brosens, R.J. Beerens, C. Pelsmaekers and F. Truyen: The Cornelia Database
   (University of London)'
 authors: ''
 journal: ''
