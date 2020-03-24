@@ -2,7 +2,7 @@
 post: true
 layout: post
 date: 2017-02-06 23:00:00 +0000
-categories: prsentation
+categories: presentation
 title: 'K. Brosens and F. Truyen: Cornelia, Art History and Quantitative/ Qualitative
   Methods (University of Leuven)'
 authors: ''
