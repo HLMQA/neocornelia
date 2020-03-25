@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<div>
+<div class="content">
 
     <div class="menu-label">
     <p>Published on {{ page.date | date: "%b %-d, %Y" }} 
             {% if page.authors.size > 2 %}
                 by {{ page.authors }}</p>
             {% endif %}
-        </div>
-<br>
+    </div>
+
+    <br>
 
     {{ content }}
 </div>
