@@ -18,4 +18,4 @@ How can we transform new scholarly insights into widely accessible narratives an
 
 These were the questions discussed by (in alphabetical order) Koenraad Brosens (KU Leuven), Laurens Dhaenens (KU Leuven), Anne Helmreich (Getty Research Institute), Christian Huemer (Belvedere Research Center, Vienna), Alba Irollo (Europeana Foundation), Antoine Isaac (Europeana Foundation), Florian Knother (Hong Kong University), Kim Oosterlinck (Université Libre de Bruxelles), Frederik Truyen (KU Leuven), Sandra van Ginhoven (Getty Research Institute), Katrien Verbert (KU Leuven), and Filip Vermeylen (Erasmus University Rotterdam).
 
-![The public conversation at the Royal Flemish Academy of Belgium for Science and the Arts scheduled on 12 March was cancelled because of COVID-19.](/uploads/ESLovxQXYAEaTSh.jpg)
+![The public conversation at the Royal Flemish Academy of Belgium for Science and the Arts scheduled on 12 March was cancelled because of COVID-19.](/neocornelia/uploads/ESLovxQXYAEaTSh.jpg)

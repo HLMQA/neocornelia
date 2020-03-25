@@ -14,4 +14,4 @@ file: ''
 ---
 _Intersectionality in Digital Humanities_ (Leuven, 15–17.9.2016)
 
-![](/uploads/CsN-OcNXgAA9Ud3.png)
+![](/neocornelia/uploads/CsN-OcNXgAA9Ud3.png)

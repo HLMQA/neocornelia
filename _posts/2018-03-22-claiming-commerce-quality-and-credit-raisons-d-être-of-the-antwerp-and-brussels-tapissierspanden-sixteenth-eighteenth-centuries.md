@@ -11,4 +11,4 @@ link: ''
 file: "/uploads/Panden TextHist 2018.pdf"
 
 ---
-![](/uploads/CJ-puFDWEAAcba6.jpg)
+![](/neocornelia/uploads/CJ-puFDWEAAcba6.jpg)

@@ -11,4 +11,4 @@ link: ''
 file: ''
 
 ---
-![]({{ site.baseurl }}/uploads/art-histories-and-big-data.jpg)
+![](/neocornelia/uploads/art-histories-and-big-data.jpg)

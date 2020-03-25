@@ -13,4 +13,4 @@ file: ''
 ---
 Amsterdam Centre for Cultural Heritage and Identity, _Creativity & the City, 1600–2000: an E-Humanities Perspective_ (Amsterdam, 28–29.10.2016)
 
-![](/uploads/Cv8GPGJWcAAk3V3.jpg)
+![](/neocornelia/uploads/Cv8GPGJWcAAk3V3.jpg)
