@@ -7,7 +7,7 @@ title: 'Klara Alen presents her PhD dissertation on networks in 17th-century Ant
   tapestry worlds '
 authors: ''
 journal: ''
-link: ''
+link:
 file: ''
 
 ---

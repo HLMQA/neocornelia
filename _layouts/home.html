@@ -109,11 +109,12 @@
                           <div class="timeline-content">
                             <p class="heading">{{ category }}</p>
                             {% if content == "" %}
-                            {% if post.link %}
-                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
-                            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
-                            {% else %}
+                            {% if post.link == blank %}
                             <p>{{ post.title }}</p>
+                            {% else %}
+                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
+                              <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+  
                             {% endif %}
                           {% else %}   
                             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
