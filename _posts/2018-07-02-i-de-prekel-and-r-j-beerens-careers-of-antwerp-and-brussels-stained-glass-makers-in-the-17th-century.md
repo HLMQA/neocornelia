@@ -1,10 +1,10 @@
 ---
 post: true
 layout: post
-date: 2018-07-02 22:00:00 +0000
+date: 2018-07-02T22:00:00.000+00:00
 categories: presentation
 title: 'I. De Prekel and R.J. Beerens: Careers of Antwerp and Brussels stained-glass
-  makers in the 17th century'
+  makers in the 17th century (Antwerp, 2 July)'
 authors: ''
 journal: ''
 link: ''
