@@ -14,3 +14,5 @@ file: ''
 ###### 29th International Colloquium of the Corpus Vitrearum
 
 Rubenianum, Antwerp 2-6 July 2018
+
+![](/neocornelia/uploads/DhK6vveWAAA6mv3.jpg)
