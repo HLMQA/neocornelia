@@ -1,10 +1,10 @@
 ---
 post: true
 layout: post
-date: 2016-10-27 22:00:00 +0000
+date: 2016-10-27T22:00:00.000+00:00
 categories: presentation
 title: 'K. Brosens, K. Alen, R.J. Beerens, C. Pelsmaekers and F. Truyen: Cornelia,
-  MapTap & Coral (Amsterdam Centre for Cultural Heritage and Identity)'
+  MapTap & Coral (Amsterdam, 28 October)'
 authors: ''
 journal: ''
 link: ''
