@@ -1,10 +1,10 @@
 ---
 post: true
 layout: post
-date: 2017-03-02 23:00:00 +0000
+date: 2017-03-02T23:00:00.000+00:00
 categories: presentation
 title: 'K. Brosens, R.J. Beerens, C. Pelsmaekers and F. Truyen: The Cornelia Database
-  (University of London)'
+  (London, 3 March)'
 authors: ''
 journal: ''
 link: ''
