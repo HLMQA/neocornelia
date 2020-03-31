@@ -1,11 +1,11 @@
 ---
 post: true
 layout: post
-date: 2016-09-30 22:00:00 +0000
+date: 2016-09-30T22:00:00.000+00:00
 categories: note
 title: K. Brosens is awarded funding from the University of Leuven and the Flemish
   Science Foundation to develop 'Coral'. R.J. Beerens, C. Pelsmaekers and I. De Prekel
-  join the team.
+  join the team. 'MapTap' and 'Coral' merge into 'Project Cornelia'.
 authors: ''
 journal: ''
 link: ''
