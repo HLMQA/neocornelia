@@ -1,9 +1,9 @@
 ---
 post: true
 layout: post
-date: 2016-04-07 22:00:00 +0000
+date: 2016-04-07T22:00:00.000+00:00
 categories: presentation
-title: 'K. Brosens: Slow Digital Art History (Universität Regensburg)'
+title: 'K. Brosens: Slow Digital Art History (Regensburg, 8 April)'
 authors: ''
 journal: ''
 link: ''
