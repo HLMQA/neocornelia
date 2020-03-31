@@ -8,7 +8,6 @@ authors: ''
 journal: ''
 link: ''
 file: ''
-
 ---
 'Yes, but what does the name _mean_?’ There was a trace of exasperation in his voice. I had just explained the workings of our wonderful _Cornelia_ database, but clearly I had misunderstood his question. Assuming that _Cornelia_ was an acronym, he had only wanted to know its meaning. Instead I had given him a slightly boring ten-minute lecture on data cleaning, data modelling, data visualization, and the myriad possibilities of computational art history.
 
