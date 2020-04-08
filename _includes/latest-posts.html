@@ -3,7 +3,7 @@
 
 {% assign count = 0 %}
 
-<p class="title is-4">Latest Posts</p>
+<p class="title is-4">Other Posts</p>
 
 <div class="columns is-multiline">
     {% for post in site.posts  %}
@@ -26,7 +26,7 @@
     {% unless post.file == "" %}
 
     <div class="column is-12">
-            <p class="content">‣ {{post.title}} 
+            <p class="content"> ‣ {{post.title}} 
                     <a href='{{ post.file }}'>
                       <img border="0" alt="PDF icon" src= {{ "/images/Adobe_PDF_file_icon_32x32.png" | prepend: site.baseurl }}  width="26" height="26" style="vertical-align: top;                            ">
                     </a>  
