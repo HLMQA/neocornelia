@@ -32,8 +32,7 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
                       {% assign content = post.content | strip_newlines %}
-
-                     
+    
  {% if category contains "presentation" %}
                       <div class="timeline-item is-primary">
                         <div class="timeline-marker is-primary is-icon">
@@ -43,7 +42,7 @@ subtitle: On this page, you can see the timeline of journal, conference, and oth
                           <p class="heading">{{ category }}</p>
                           {% if content == "" %}
                             {% if post.link %}
-                            <p><i><a href="{{ post.link }}">{{ post.title }}</i></a>
+                            <p><i><a href="{{ post.link }}">{{ post.title }}</a></i>
                             <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
                             {% else %}
                             <p>{{ post.title }}</p>
