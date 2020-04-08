@@ -45,23 +45,26 @@
                       {% endif %}
                       {% capture category %}{{ post.categories.first }}{% endcapture %}
                       {% assign content = post.content | strip_newlines %}
-
                       <!-- Define knot style and title formatting for publications -->
                       {% if category == "publication" %}
                       <div class="timeline-item is-primary">
-                          <!-- <p id=timeline-item-date>{{ post.date | date_to_string }}</p> -->
                         <div class="timeline-marker is-primary is-icon">
                           <i class="fa fa-bookmark fa-sm"></i>
                         </div>
                         <div class="timeline-content">
-                          <p class="heading">{{ category }}</p>
-                          {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}
+                          <span class="heading">{{ category }}</span>
+                        <p>
+                        {{ post.authors }} <strong>‘{{post.title}}’</strong>. {{ post.journal }}
                           {% unless post.file == "" %}
                           <a href='{{ post.file }}'>
                             <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="26" height="26" style="vertical-align: top;                            ">
                           </a>  
                           {% endunless %}
                           </p>
+
+                          <p class=timeline-item-date>{{ post.date | date_to_string }}</p>
+
+                      
                         </div>
                       </div>
                         
@@ -79,6 +82,8 @@
                             {% else %}  
                           <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
                         {% endif %}
+
+                        <p class=timeline-item-date>{{ post.date | date_to_string }}</p>
 
                         </div>
                       </div>
@@ -103,6 +108,9 @@
                           {% else %}  
                           <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
                           {% endif %}
+                        
+                          <p class=timeline-item-date>{{ post.date | date_to_string }}</p>
+
                         </div>
                       </div>
 
@@ -125,6 +133,10 @@
                           {% else %}   
                             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
                             {% endif %}
+
+                            <p class=timeline-item-date>{{ post.date | date_to_string }}</p>
+
+                            
                           </div>
                       </div>
                       {% endif %}

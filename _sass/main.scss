@@ -21,30 +21,27 @@ $hero-darken: $dark !default;
   color: #ea4aaa;
 }
 
-// .timeline-item.is-primary:hover{
-//   background-color: yellow;
-// }
-
-#timeline-item-date {
-  display: flex;
-
-  // align-self: flex-start;
-  flex-direction: row-reverse;
-  position:relative;
-  left:-140px;
-  // top:0px;
-  vertical-align: top;
-  padding: 1em 0 0 2em;
-  float:left;  
-  width: 0%;
-  opacity: 0.5;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+.timeline-item.is-primary{
+padding-bottom: 1em !important;
 }
 
-.timeline-item.is-primary:hover + #timeline-item-date {
+.timeline-item.is-primary:hover{
+  // background-color: #ffd3d140;
+  background-color: #bfa46b2e;
+}
+
+
+
+.timeline-item-date {
+  opacity: 0.0;
+  // -webkit-transition: all 200ms ease-in-out;
+  // -moz-transition: all 200ms ease-in-out;
+  // -ms-transition: all 200ms ease-in-out;
+  // -o-transition: all 200ms ease-in-out;
+  // transition: all 200ms ease-in-out;
+}
+
+.timeline-item.is-primary:hover .timeline-item-date {
   opacity: 1.0;
+  color:grey;
 }
