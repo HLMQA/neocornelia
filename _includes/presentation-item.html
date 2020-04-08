@@ -1,0 +1,23 @@
+{% assign content = post.content | strip_newlines %}
+{% capture category %}{{ post.categories.first }}{% endcapture %}
+
+<div class="timeline-item is-primary">
+        <div class="timeline-marker is-primary is-icon">
+            <i class="fas fa-microphone fa-sm"></i>
+        </div>
+        <div class="timeline-content">
+            <p class="heading">{{ category }}</p>
+            {% if content == "" %}
+            {% if post.link %}
+            <p><i><a href="{{ post.link }}">{{ post.title }}</a></i>
+            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+            {% else %}
+            <p>{{ post.title }}</p>
+            {% endif %}
+            {% else %}  
+            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
+            {% endif %}
+            <p class="timeline-item-date">{{ post.date | date_to_string }}</p>
+        
+        </div>
+        </div>

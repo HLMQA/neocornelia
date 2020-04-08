@@ -1,0 +1,41 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+---
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cornelia</title>
+    <link rel="stylesheet" href="{{ "/assets/css/timeline.css" | relative_url }}">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8-desktop is-offset-2-desktop">
+                <div class="timeline">
+                        <header class="timeline-header">
+                                <span class="tag is-primary" style="font-size: 0.90rem;">Now</span>
+                            </header>
+                
+{{ content}}
+
+<header class="timeline-header">
+        {% capture year %}{{ site.posts.last.date | date: '%Y' }}{% endcapture %}
+        <span class="tag is-primary" style="font-size: 0.90rem;">{{ year }}</span>
+    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

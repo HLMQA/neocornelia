@@ -1,68 +1,24 @@
 ---
 published: true
-layout: page
+layout: filter-page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
-title: Publications
-subtitle: On this page, you can see the timeline of journal, conference, and other papers published as part of Project Cornelia. Papers are available to download when possible.
+title: Infrastructure
+subtitle: Here, you can find links to the infrastructure and prototypes we developed within Project Cornelia.
 ---
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cornelia</title>
-    <link rel="stylesheet" href="{{ "/assets/css/timeline.css" | relative_url }}">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
-<body>
+{% assign filtered-posts = site.posts | where:"categories", "infrastructure" %}
 
-<section class="section">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-                <div class="timeline">
-                    {% for post in site.posts %}
-                      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-                      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-                      {% if year != nyear %}
-                        <header class="timeline-header">
-                          <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
-                        </header>
-                      {% endif %}
-                      {% capture category %}{{ post.categories.first }}{% endcapture %}
-                      {% assign content = post.content | strip_newlines %}
+{% for post in filtered-posts %}
 
-                     
- {% if category contains "infrastructure" %}
-    <div class="timeline-item is-primary">
-                        <div class="timeline-marker is-primary is-icon">
-                          <i class="fas fa-cog fa-sm"></i>
-                        </div>
-                        <div class="timeline-content">
-                          <p class="heading">{{ category }}</p>
-                          {% if content == "" %}
-                            <p>{{ post.title }}</p>
-                            {% else %}  
-                          <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>
-                        {% endif %}
+{% assign next-post = filtered-posts[forloop.index] %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ next-post.date | date: '%Y' }}{% endcapture %}
 
-                        </div>
-                      </div>
+{% include infrastructure-item.html content=post %}
 
-
-{%endif%}
-
-                     
-                    {% endfor %}
-                    <header class="timeline-header">
-                        <span class="tag is-primary" style="font-size: 0.90rem;">Project starts</span>
-                    </header>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-</body>
-</html>
+{% if year != nyear and next-post.date %}
+<header class="timeline-header">
+    <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
+</header>
+{% endif %}
+{% endfor %}
