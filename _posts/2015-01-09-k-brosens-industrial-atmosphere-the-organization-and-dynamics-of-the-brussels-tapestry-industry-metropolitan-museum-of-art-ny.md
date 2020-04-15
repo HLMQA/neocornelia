@@ -7,7 +7,7 @@ title: 'K. Brosens: “Industrial Atmosphere”. The organization and dynamics o
   Brussels tapestry industry (New York, 10 January)'
 authors: ''
 journal: ''
-link: ''
+link: https://www.metmuseum.org/metmedia/video/lectures/grand-design-symposium-1
 file: ''
 
 ---
