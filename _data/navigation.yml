@@ -15,5 +15,5 @@
     - name: Source Browser
       link: https://projectcornelia.be/actors
 - name: About us
-  link: /about/
+  link: /about/index.html
   rightside: true
