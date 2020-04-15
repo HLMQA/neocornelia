@@ -10,7 +10,7 @@ layout: home
 {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 {% if year != nyear and post.next %}
 <header class="timeline-header">
-    <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.date | date: '%Y' }}</span>
+    <span class="tag is-primary" style="font-size: 0.90rem;" >{{ post.next.date | date: '%Y' }}</span>
 </header>
 {% endif %}
 {% capture category %}{{ post.categories.first }}{% endcapture %}
