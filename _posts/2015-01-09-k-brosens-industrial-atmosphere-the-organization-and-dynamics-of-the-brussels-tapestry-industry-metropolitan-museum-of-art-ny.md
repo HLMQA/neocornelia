@@ -11,4 +11,3 @@ link: https://www.metmuseum.org/metmedia/video/lectures/grand-design-symposium-1
 file: ''
 
 ---
-New York, The Metropolitan Museum of Art, _Grand Design: Pieter Coecke van Aelst and Renaissance Tapestry. An International Symposium_ (New York, 10–11.1.2015)
