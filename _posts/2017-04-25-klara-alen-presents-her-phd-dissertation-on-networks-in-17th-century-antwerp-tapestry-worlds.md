@@ -7,7 +7,6 @@ title: Klara Alen presents her PhD dissertation on networks in 17th-century Antw
   tapestry worlds (26 April)
 authors: ''
 journal: ''
-link: 
 file: ''
 
 ---
