@@ -45,3 +45,25 @@ padding-bottom: 1em !important;
   opacity: 1.0;
   color:grey;
 }
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+}
+
+.grid-item{
+  text-align: left;
+  font-size: 90%;
+}
+
+.grid-item .minipic{ 
+  max-width:  225px; 
+  // border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
