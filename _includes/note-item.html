@@ -1,4 +1,7 @@
 {% assign content = post.content | strip_newlines %}
+{% assign link = post.link | remove: "''" %}
+{% assign link = link | strip %}
+
 {% capture category %}{{ post.categories.first }}{% endcapture %}
 
 <div class="timeline-item is-primary">
@@ -6,15 +9,15 @@
         <div class="timeline-content">
         <p class="heading">{{ category }}</p>
         {% if content == "" %}
-        {% if post.link == blank %}
-        <p>{{ post.title }}</p>
-        {% else %}
-        <p><i><a href="{{ post.link }}">{{ post.title }}</a></i>
-            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
+            {% if link == "" %}
+                <p>{{ post.title }}</p>
+            {% else %}
+                <p><i><a href="{{ link }}">{{ post.title }}</a></i>
+                    <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></p>
     
-        {% endif %}
+            {% endif %}
         {% else %}   
-        <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
+            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
         {% endif %}
     
         <p class="timeline-item-date">{{ post.date | date_to_string }}</p>
