@@ -4,7 +4,8 @@ layout: filter-page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
 title: Publications
-subtitle: On this page, you can see the timeline of journal, conference, and other papers published as part of Project Cornelia. Papers are available to download when possible.
+subtitle: 
+hero_image: /neocornelia/images/Banner_trimmed.jpg
 ---
 {% assign filtered-posts = site.posts | where:"categories", "publication" %}
 

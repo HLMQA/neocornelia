@@ -4,7 +4,8 @@ layout: filter-page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
 title: Infrastructure
-subtitle: Here, you can find links to the infrastructure and prototypes we developed within Project Cornelia.
+subtitle: 
+hero_image: /neocornelia/images/Banner_trimmed.jpg
 ---
 {% assign filtered-posts = site.posts | where:"categories", "infrastructure" %}
 

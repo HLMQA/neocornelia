@@ -4,7 +4,9 @@ layout: filter-page
 date: '2020-01-02 19:19:20 +0100'
 categories: post event
 title: Presentations
-subtitle: On this page, you can see the presentations, talks, and workshops given by members of the Project Cornelia team. 
+subtitle:
+hero_image: /neocornelia/images/Banner_trimmed.jpg
+
 ---
 {% assign filtered-posts = site.posts | where:"categories", "presentation" %}
 
