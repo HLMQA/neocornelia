@@ -7,6 +7,7 @@ title: Bruno Cardoso releases KUbism demo
 authors: ''
 journal: ''
 link: ''
-file: "/neocornelia/uploads/KUbismBasics.mp4"
+file:
+video: "/neocornelia/uploads/KUbismBasics.mp4"
 
 ---

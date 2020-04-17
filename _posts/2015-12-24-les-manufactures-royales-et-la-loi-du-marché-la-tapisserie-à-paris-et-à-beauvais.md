@@ -7,6 +7,6 @@ title: Les manufactures royales et la loi du marché. La tapisserie à Paris et 
 authors: K. Brosens
 journal: Revue de l’Art 190 (2015), pp. 29–38.
 link: ''
-file: "/neocornelia/uploads/Brosens Les manufactures royales-1.pdf"
+file: "/uploads/Brosens Les manufactures royales-1.pdf"
 
 ---

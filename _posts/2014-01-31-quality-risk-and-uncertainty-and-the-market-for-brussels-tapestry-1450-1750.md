@@ -8,6 +8,6 @@ authors: K. Brosens
 journal: in N. De Marchi and S. Raux (eds.), Moving Pictures. Intra-European Trade
   in Images, 16th–18th Centuries, Turnhout (Brepols), 2014, pp. 19–36.
 link: ''
-file: "/neocornelia/uploads/2014 Quality Risk MP.pdf"
+file: "/uploads/2014 Quality Risk MP.pdf"
 
 ---

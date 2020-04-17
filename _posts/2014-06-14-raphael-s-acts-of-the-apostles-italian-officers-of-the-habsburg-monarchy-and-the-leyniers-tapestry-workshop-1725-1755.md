@@ -8,6 +8,6 @@ title: Raphael’s Acts of the Apostles, Italian officers of the Habsburg monarc
 authors: K. Brosens and G. Delmarcel
 journal: The Burlington Magazine 156 (June 2014), pp. 376–381.
 link: ''
-file: "/neocornelia/uploads/Brosens Delmarcel Raphael Acts.pdf"
+file: "/uploads/Brosens Delmarcel Raphael Acts.pdf"
 
 ---
