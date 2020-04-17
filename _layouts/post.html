@@ -15,7 +15,15 @@ layout: default
 
     <br>
 
+
     {{ content }}
+
+    {% if page.video %}
+        <video controls: controls; muted autoplay controls>
+            <source src= "{{ page.video }}">
+          </video>
+    {% endif %}
+
 </div>
 
 <div class="tags">
