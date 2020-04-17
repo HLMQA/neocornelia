@@ -1,7 +1,7 @@
 ---
 post: true
 layout: post
-date: 2019-06-30T22:00:00.000+00:00
+date: 2017-06-30 22:00:00 +0000
 categories: publication
 title: 'Creativity and disruption in Brussels tapestry, 1698–1706: New data on Jan
   van Orley and Judocus de Vos'
