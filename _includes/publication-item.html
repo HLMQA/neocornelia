@@ -14,6 +14,6 @@
             <img border="0" alt="PDF icon" src="images/Adobe_PDF_file_icon_32x32.png" width="26" height="26" style="vertical-align: top; ">
             </a> </p>
             {% endif %}
-            <p class="timeline-item-date">{{ post.date | date_to_string }}</p>
-    </div>
+            <p class="timeline-item-date">{{ post.date | date: "%b %Y" }}</p>
+        </div>
 </div>

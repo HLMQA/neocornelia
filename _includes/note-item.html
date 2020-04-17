@@ -20,7 +20,7 @@
             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>  
         {% endif %}
     
-        <p class="timeline-item-date">{{ post.date | date_to_string }}</p>
+        <p class="timeline-item-date">{{ post.date | date: "%b %Y" }}</p>
     
         
         </div>
