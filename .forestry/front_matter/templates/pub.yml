@@ -32,6 +32,13 @@ fields:
     maxSize: 250
   label: File
   description: Upload the publication file
+- name: video
+  type: file
+  config:
+    maxSize: 250
+  label: Video
+  description: Upload a video from your computer (preferrably mp4, other formats not
+    tested yet)
 pages:
 - _posts/2015-09-01-cornelia-welcomes-3000th-actor.md
 - _posts/2016-04-08-in-de-praktijk-het-vlaamse-wandtapijt-in-50-verhalen.md
