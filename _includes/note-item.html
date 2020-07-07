@@ -1,6 +1,8 @@
 {% assign content = post.content | strip_newlines %}
 {% assign link = post.link | remove: "''" %}
 {% assign link = link | strip %}
+{% assign video = post.video | remove: "''" %}
+{% assign video = video | strip %}
 
 {% capture category %}{{ post.categories.first }}{% endcapture %}
 
@@ -8,7 +10,7 @@
         <div class="timeline-marker is-primary"></div>
         <div class="timeline-content">
         <p class="heading">{{ category }}</p>
-        {% if content == "" %}
+        {% if content == ""  and video =="" %}
             {% if link == "" %}
                 <p>{{ post.title }}</p>
             {% else %}

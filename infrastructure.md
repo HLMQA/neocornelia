@@ -5,7 +5,7 @@ date: '2020-01-02 19:19:20 +0100'
 categories: post event
 title: Infrastructure
 subtitle: 
-hero_image: /neocornelia/images/Banner_trimmed.jpg
+hero_image: /images/Banner_trimmed.jpg
 ---
 {% assign filtered-posts = site.posts | where:"categories", "infrastructure" %}
 

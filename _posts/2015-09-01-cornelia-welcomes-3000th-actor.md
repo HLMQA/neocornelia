@@ -10,4 +10,4 @@ link: ''
 file: ''
 
 ---
-![](/neocornelia/uploads/CN6IpkSUEAEVGj9.jpg)
+![](/uploads/CN6IpkSUEAEVGj9.jpg)

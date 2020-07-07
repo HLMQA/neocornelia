@@ -1,13 +1,16 @@
 {% assign content = post.content | strip_newlines %}
 {% capture category %}{{ post.categories.first }}{% endcapture %}
 
+{% assign video = post.video | remove: "''" %}
+{% assign video = video | strip %}
+
 <div class="timeline-item is-primary">
         <div class="timeline-marker is-primary is-icon">
             <i class="fas fa-cog fa-sm"></i>
         </div>
         <div class="timeline-content">
             <p class="heading">{{ category }}</p>
-            {% if content == "" %}
+            {% if content == ""  and video =="" %}
             <p>{{ post.title }}</p>
             {% else %}  
             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></p>

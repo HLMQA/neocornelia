@@ -20,4 +20,4 @@ These were the questions discussed by scholars with different disciplinary backg
 
 Unfortunately, the public conversation at the Royal Academy of Belgium for Science and the Arts, Brussels, was cancelled because of the COVID-19 outbreak.
 
-![The public conversation at the Royal Flemish Academy of Belgium for Science and the Arts scheduled on 12 March was cancelled because of COVID-19.](/neocornelia/uploads/ESLovxQXYAEaTSh.jpg)
+![The public conversation at the Royal Flemish Academy of Belgium for Science and the Arts scheduled on 12 March was cancelled because of COVID-19.](/uploads/ESLovxQXYAEaTSh.jpg)

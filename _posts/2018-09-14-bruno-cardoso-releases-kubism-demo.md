@@ -8,6 +8,6 @@ authors: ''
 journal: ''
 link: ''
 file:
-video: "/neocornelia/uploads/KUbismBasics.mp4"
+video: "/uploads/KUbismBasics.mp4"
 
 ---

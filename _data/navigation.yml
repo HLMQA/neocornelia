@@ -13,7 +13,9 @@
   link: #
   dropdown: 
     - name: Source Browser
-      link: https://projectcornelia.be/actors
+      link: /tools/source_browser.html
+    - name: Tree Browser
+      link: /tools/tree_browser.html
 - name: About us
   link: /about/index.html
   rightside: true

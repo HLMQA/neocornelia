@@ -13,4 +13,4 @@ file: ''
 ---
 The Getty Research Institute, Los Angeles (8–9.6.2015)
 
-![](/neocornelia/uploads/PHOTO-2020-02-19-02-26-54.jpg)
+![](/uploads/PHOTO-2020-02-19-02-26-54.jpg)

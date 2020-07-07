@@ -18,4 +18,4 @@ The Research and Academic Program presents, “Grand Challenges of Art History: 
 
 Participants include Niall Atkinson (University of Chicago), Horace Ballard (Williams College Museum of Art), Koenraad Brosens (Leuven University), André Dombrowski (University of Pennsylvania), Jacqueline Francis (California College of the Arts), Susan Gagliardi (Emory University), Anne Helmreich (Getty Research Institute), Paul Jaskot (Duke University), Hubertus Kohle (Ludwig-Maximilians-Universität München Institut für Kunstgeschichte), Min Kyung Lee (Bryn Mawr), Barbara McCloskey (University of Pittsburgh), Emily Pugh (Getty Research Institute), and Blake Stimson (University of Illinois, Chicago).
 
-![](/neocornelia/uploads/D5Lmu2vXsAAGWyG.jpg)
+![](/uploads/D5Lmu2vXsAAGWyG.jpg)
