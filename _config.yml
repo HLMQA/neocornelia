@@ -22,12 +22,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 
 # Build settings
 markdown: kramdown
 # theme: minima
 theme: bulma-clean-theme
+favicon: /favicon.ico
 
 plugins:
   - jekyll-feed
@@ -45,11 +46,9 @@ plugins:
 #   - vendor/ruby/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       hero_height: "is-small"
       show_sidebar: true
-
