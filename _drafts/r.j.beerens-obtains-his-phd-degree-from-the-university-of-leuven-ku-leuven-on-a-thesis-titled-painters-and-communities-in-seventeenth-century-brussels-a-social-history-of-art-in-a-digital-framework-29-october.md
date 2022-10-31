@@ -1,0 +1,15 @@
+---
+post: true
+layout: post
+date: 2021-10-28 22:00:00 +0000
+categories: note
+title: 'R.J. Beerens obtains his PhD degree from the University of Leuven (KU Leuven),
+  on a thesis titled Painters and Communities in Seventeenth-Century Brussels: A Social
+  History of Art in a Digital Framework (29 October)'
+authors: ''
+journal: ''
+link: ''
+file: ''
+video: ''
+
+---
